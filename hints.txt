@@ -1,0 +1,3 @@
+https://css-tricks.com/a-quick-way-to-remember-difference-between-justify-content-align-items/
+justify content is along x axis, usually used to get text in middle (a row in a container)
+align itens is for y axis, usually used to bring things in the middle vertically (a col in a row)
