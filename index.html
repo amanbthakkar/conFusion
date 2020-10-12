@@ -14,15 +14,20 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top">
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top"> <!-- removed bg-primary for css color to work-->
         <div class="container">
-                <a class="navbar-brand" href="#">Ristorante Con Fusion</a>
-                <ul class="navbar-nav mr-auto"> <!--margin right auto(everything pushed to left as much as possible) -->
-                    <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./aboutus.hmtl">About</a></li>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar"> <!-- data-toggle is Bootstrap's JS component-->
+              <span class="navbar-toggler-icon"></span>
+          </button>
+           <a class="navbar-brand mr-auto" href="#">Ristorante Con Fusion</a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a class="nav-link" href="./index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./aboutus.html">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
                 </ul>
+            </div>            
         </div>
     </nav>
     <header class="jumbotron">
@@ -79,7 +84,7 @@
                     <h5>Links</h5>
                     <ul class="list-unstyled">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="./aboutus.html">About</a></li>
                         <li><a href="#">Menu</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
