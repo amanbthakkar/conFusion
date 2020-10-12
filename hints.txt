@@ -1,3 +1,6 @@
 https://css-tricks.com/a-quick-way-to-remember-difference-between-justify-content-align-items/
 justify content is along x axis, usually used to get text in middle (a row in a container)
 align itens is for y axis, usually used to bring things in the middle vertically (a col in a row)
+
+align items vs align self: https://css-tricks.com/almanac/properties/a/align-self/
+basically align self did a col in row aligned in center of the space that it was given (the entire div was put in center - vertically)
