@@ -4,3 +4,9 @@ align itens is for y axis, usually used to bring things in the middle vertically
 
 align items vs align self: https://css-tricks.com/almanac/properties/a/align-self/
 basically align self did a col in row aligned in center of the space that it was given (the entire div was put in center - vertically)
+
+
+<a href="#" role="button">Button Link</a>
+Screen Readers will read this element as “button” instead of “link” -> that's why we put a role tag.
+
+To divide a form into rows, just put a div inside it and apply the form-group and row class to it.
